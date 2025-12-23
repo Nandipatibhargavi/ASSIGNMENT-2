@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="icon" href="women_shirt.ico">
+    <style>
+            *{
+            box-sizing: border-box;
+            }
+            header{
+                height:10vh;
+                background-color: white;
+                box-shadow: 0 4px 15px rgba(101, 101, 101, 0.3);
+            }
+            .parent1div{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            nav ul li a {
+                color:black;
+                text-decoration: none;
+            }
+            #butt{
+                background-color: aliceblue;
+                color: rgb(50, 224, 224);
+                border:none;
+                border-radius: 5px;
+                width:110px;
+                font-family: cursive;
+                height:45px;
+            }
+            #lis{
+                display: flex;
+                gap:20px;
+                font-size: 20px;
+                list-style-type: none;
+            }
+            h1{
+                font-family: cursive;
+            }
+            .h11{
+                color:rgb(80, 195, 220);
+            }
+            p{
+                color:grey;
+                font-family: 'Segoe UI', Tahoma;
+            }
+            button{
+                border:none;
+                background-color: rgb(96, 202, 226);
+                color:rgb(255, 255, 255);
+                width:180px;
+                height:50px;
+                border-radius: 15px;
+                font-family:Georgia, Times;
+            }
+            img{
+                border-radius:25px;
+            }
+            #lr{
+                height:90vh;
+                display:flex;
+                justify-content: space-around;
+                padding:50px;
+            }
+            #left{
+                padding:50px;
+            }
+    </style>
+</head>
+    <body>    
+        <header>
+            <div class="parent1div">
+                <div>
+                <img class="ulp" src="women_shirt.ico" alt="shirt image"/>
+                </div>
+                <div>
+                    <nav>
+                        <ul id="lis">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#Aboutus">About Us</a></li>
+                            <li><a href="#Contactus">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <button id="butt">UserName</button>
+                </div>
+            </div>
+        </header>
+        <section id="lr">
+            <div id="left">
+                <h1>Revitalize Your clothes with Expert</h1>
+                <h1 class="h11">Laundry Services!</h1>
+                <p>From premium cleaning to swift wash and fold, we deliver care and convienience.Schedule a pickup and rediscover the freshness of your cloths today!</p>
+                <button>Book a sevice today!</button>
+            </div>
+            <div id="right">
+                <img src="https://img.freepik.com/premium-photo/cute-3d-cartoon-washing-machine-character_960080-5995.jpg" alt="washing machine">
+            </div>
+        </section>
+    </body>
+</html>
